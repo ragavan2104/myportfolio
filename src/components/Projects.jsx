@@ -11,24 +11,24 @@ const Projects = () => {
       name: "Peer App",
       description:
         "A platform where developers can share their project ideas, showcase GitHub repos, live links, and engage with likes & comments.",
-      github: "https://github.com/yourusername/peer-app",
-      live: "https://peerapp-demo.vercel.app",
+      github: "https://github.com/ragavan2104/peer",
+      live: "https://peer-kimv.vercel.app/",
       image: peerAppImg,
     },
     {
       name: "Bulk Mailer App",
       description:
         "An app designed to send bulk emails efficiently to multiple users with ease and proper formatting.",
-      github: "https://github.com/yourusername/bulk-mailer",
-      live: "https://bulkmailer-demo.vercel.app",
+      github: "https://github.com/ragavan2104/mailsender",
+      live: "https://mailsender-x8cv-6t269n12u-raagavans-projects.vercel.app/",
       image: bulkMailerImg,
     },
     {
       name: "CineVault",
       description:
         "A movie showcase platform to browse, search, and explore movies with details, posters, and ratings.",
-      github: "https://github.com/yourusername/cinevault",
-      live: "https://cinevault-demo.vercel.app",
+      github: "https://github.com/ragavan2104/cinevault",
+      live: "https://cinevault-beta.vercel.app/",
       image: cineVaultImg,
     },
   ];
