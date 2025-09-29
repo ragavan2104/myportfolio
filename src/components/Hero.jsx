@@ -5,7 +5,7 @@ import profileImg from "../assets/DSC_0014.JPG"; // ✅ import your image
 
 const Hero = () => {
   return (
-    <section className="flex justify-center px-6">
+    <section id="home" className="flex justify-center px-6">
       <div className="brand-dark shadow-2xl relative mt-20 md:mt-28 rounded-2xl text-blue-400 w-full max-w-6xl p-6 md:p-12 flex flex-col md:flex-row items-center gap-10">
         
         {/* Left Content */}

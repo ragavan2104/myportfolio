@@ -6,6 +6,8 @@ import NavBar from './components/NavBar'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
+import Skills from './components/Skills'
+import Contact from './components/Contact'
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <NavBar />
      <Hero />
      <Projects />
+     <Skills />
+     <Contact />
      <Footer />
     </>
   )
