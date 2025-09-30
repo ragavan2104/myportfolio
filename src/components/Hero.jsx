@@ -4,6 +4,17 @@ import { Github, Linkedin, Mail } from "lucide-react";
 import profileImg from "../assets/DSC_0014.JPG"; // ✅ import your image
 
 const Hero = () => {
+  // Smooth scroll function
+  const handleScroll = (targetId) => {
+    const element = document.querySelector(targetId);
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }
+  };
+
   return (
     <section id="home" className="flex justify-center px-6">
       <div className="brand-dark shadow-2xl relative mt-20 md:mt-28 rounded-2xl text-blue-400 w-full max-w-6xl p-6 md:p-12 flex flex-col md:flex-row items-center gap-10">
@@ -39,10 +50,16 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1 }}
             className="mt-8 flex flex-wrap gap-4"
           >
-            <button className="bg-blue-500 hover:bg-blue-600 transition-colors px-6 py-3 rounded-xl text-white shadow-xl">
+            <button 
+              onClick={() => handleScroll('#projects')}
+              className="bg-blue-500 hover:bg-blue-600 transition-colors px-6 py-3 rounded-xl text-white shadow-xl cursor-pointer"
+            >
               View my work
             </button>
-            <button className="border border-blue-400 px-6 py-3 rounded-xl text-blue-400 hover:bg-blue-500 hover:text-white transition-colors">
+            <button 
+              onClick={() => handleScroll('#contact')}
+              className="border border-blue-400 px-6 py-3 rounded-xl text-blue-400 hover:bg-blue-500 hover:text-white transition-colors cursor-pointer"
+            >
               Contact Me
             </button>
           </motion.div>
