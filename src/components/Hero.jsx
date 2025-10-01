@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail } from "lucide-react";
-import profileImg from "../assets/DSC_0014.JPG"; // ✅ import your image
+import profileImg from "../assets/DSC_0014.JPG"; 
 
 const Hero = () => {
   // Smooth scroll function

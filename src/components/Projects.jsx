@@ -10,7 +10,7 @@ const Projects = () => {
     {
       name: "Peer App",
       description:
-        "A platform where developers can share their project ideas, showcase GitHub repos, live links, and engage with likes & comments.",
+        "A platform where developers can share their project ideas,GitHub repos, live links, and engage with likes & comments.",
       github: "https://github.com/ragavan2104/peer",
       live: "https://peer-kimv.vercel.app/",
       image: peerAppImg,
